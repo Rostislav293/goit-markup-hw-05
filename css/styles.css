@@ -615,8 +615,14 @@ background-color: #31D0AA;
   position: absolute;
   top: 24px;
   right: 24px;
-  background-color:#E7E9FC;
-  
+  background-color: #E7E9FC;
+  border: 1px solid #0000001A
+}
+
+.modal-close:hover,
+.modal-close:focus{
+  background-color: #404BBF;
+  fill: #FFFFFF;
 }
 
 .section-title{
@@ -630,10 +636,38 @@ text-align: center;
 margin-bottom: 16px;
 }
 
+.inpup-wrap{
+  position: relative;
+}
+
 .modal-input{
   width: 100%;
   height: 40px;
-  border: 1px solid #2E2F4266;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  padding-left: 38px;
+  padding-right: 16px;
   border-radius: 4px;
-  margin-bottom: 8px;
+  
+  
+
+}
+
+.icon-modal-svg{
+  width: 18px;
+  height: 24px;
+  position:absolute;
+  left: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal-label{
+color: rgb(142, 143, 153);
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: -0.04em;
+text-align: left;
 }
