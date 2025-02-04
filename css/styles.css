@@ -172,7 +172,7 @@ bottom: -1px;
 .header-address-menu-ling:focus {
   color: #404bbf;
 }
-/* --------------------effect----1------------ */
+/* --------------------effective----1------------ */
 
 .effective{
   padding-top: 188px;
@@ -579,4 +579,61 @@ background-color: #31D0AA;
 
 .icon-footer-soc {
   fill: #F4F4FD;
+}
+/* ---------------backdrop--------------------- */
+
+.backdrop{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #2E2F4266;
+  border-radius: 4px;
+  
+  
+}
+
+.modal{
+  width: 408px;
+  min-height: 584px;
+  background-color: #FCFCFC;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-top: 72px;
+
+}
+.modal-close{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background-color:#E7E9FC;
+  
+}
+
+.section-title{
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+text-align: center;
+margin-bottom: 16px;
+}
+
+.modal-input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid #2E2F4266;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
