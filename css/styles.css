@@ -609,12 +609,12 @@ background-color: #31D0AA;
 
 }
 .modal-close{
+  top: 24px;
+  right: 24px;
   width: 24px;
   height: 24px;
   border-radius: 50%;
   position: absolute;
-  top: 24px;
-  right: 24px;
   background-color: #E7E9FC;
   border: 1px solid #0000001A
 }
@@ -640,22 +640,32 @@ margin-bottom: 16px;
   position: relative;
 }
 
+.modal-field{
+  margin-bottom: 8px;
+  
+}
+
 .modal-input{
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
-  padding-left: 38px;
-  padding-right: 16px;
+  padding-left: 39px;
   border-radius: 4px;
+  outline: transparent;
   
-  
+}
 
+.modal-input:focus{
+  border-color: #4D5AE5;
+}
+
+.modal-input:focus + .icon-modal-svg{
+  fill: #4D5AE5;
 }
 
 .icon-modal-svg{
-  width: 18px;
-  height: 24px;
+  
   position:absolute;
   left: 19px;
   top: 50%;
@@ -664,10 +674,11 @@ margin-bottom: 16px;
 
 .modal-label{
 color: rgb(142, 143, 153);
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 12px;
 font-weight: 400;
 line-height: 1.17;
 letter-spacing: -0.04em;
 text-align: left;
+
 }
