@@ -216,7 +216,7 @@ bottom: -1px;
   min-width: 169px;
   border-radius: 4px;
   transition: background-color 250ms
-    cubic-bezier(0.4, 0, 0.2, 1);
+  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .effective-btn:hover,
@@ -642,6 +642,7 @@ margin-bottom: 16px;
 
 .inpup-wrap{
   position: relative;
+  margin-bottom: 8px;
 }
 
 .modal-field{
@@ -676,6 +677,10 @@ margin-bottom: 16px;
   transform: translateY(-50%);
 }
 
+.inpup-comment{
+  margin-bottom: 16px;
+}
+
 .modal-label{
 color: rgb(142, 143, 153);
 font-family: "Roboto", sans-serif;
@@ -697,12 +702,22 @@ text-align: left;
   border-radius: 4px;
   outline: transparent;
   resize: none;
+  background-color: transparent;
+  
+}
+
+.modal-textarea:focus{
+  border-color: #4D5AE5;
 }
 
 .modal-textarea::placeholder{
   font-size: 12px;
 }
 
+.che{
+  margin-bottom: 24px;
+  
+}
 
 .modal-check-text{
 font-family: "Roboto", sans-serif;
@@ -714,6 +729,17 @@ color: #8E8F99;
 display: flex;
 align-items: center;
 
+}
+
+.privat{
+  color: #4d5ae5;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.04em;
+text-decoration: underline;
+text-indent: 4px;
 }
 
 .modal-check-item{
@@ -733,4 +759,28 @@ align-items: center;
   background-color: #404BBF;
   border: none;
   fill: #FCFCFC;
+}
+
+
+.btn-title{
+  background: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border: none;
+  min-width: 169px;
+  border-radius: 4px;
+  transition: background-color 250ms
+  cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-title:hover,
+.btn-title:focus {
+  background-color: #404bbf;
 }
