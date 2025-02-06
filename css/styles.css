@@ -629,13 +629,16 @@ padding-left: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
+  text-align: center;
   min-height: 40px;
   min-width: 165px;
   padding-right: 24px;
+  padding-bottom: 8px;
   border: none;
   border-radius: 4px;
   transition: background-color 250ms
   cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .btn-subscribe:focus,
@@ -643,7 +646,13 @@ padding-left: 16px;
   background-color: #31D0AA;
 }
 
-
+.icon-sub{
+  margin-top: 8px;
+  margin-left: 16px;
+  fill: #FFFFFF;
+  
+  
+}
 
 
 /* ---------------backdrop--------------------- */
@@ -667,6 +676,7 @@ padding-left: 16px;
   visibility: hidden;
   pointer-events: none;
   }
+
   .backdrop.is-open {
   opacity: 1;
   visibility: visible;
