@@ -621,9 +621,12 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 padding-left: 16px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
+transition: border-color 250ms 
+  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+.input-subscribe:hover,
 .input-subscribe:focus{
   border-color: #31D0AA;
 }
